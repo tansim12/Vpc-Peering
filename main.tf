@@ -188,7 +188,7 @@ resource "aws_vpc_peering_connection" "vpc_peering" {
   auto_accept = true
 
   tags = {
-    Name = "AppVPC-DBVPC-Peering"
+    Name = "AppVPC-DBVPC-Peering-Test"
   }
 }
 
